@@ -4,10 +4,13 @@
     {
         static void Main(string[] args)
         {
-            ImprimirSoma();
-            ChecarPresencaNaFibonacci();
-            VerificarPercentualNoFaturamento();
+            //Para uma melhor exibição de informações, foram utilizados vários Console.WriteLine() nas funções
 
+
+            //ImprimirSoma();
+            //ChecarPresencaNaFibonacci();
+            //VerificarPercentualNoFaturamento();
+            InverterString();
 
 
             /*
@@ -32,8 +35,6 @@
     
         static void ImprimirSoma()
         {
-            //Adotados Console.WriteLines visando melhor organização de código em detrimento a interpolação com @
-
             Console.WriteLine("1) Imprimir soma após iterações:");
             Console.WriteLine();
             Console.WriteLine("   Observe o trecho de código abaixo:");
@@ -67,8 +68,6 @@
         static void ChecarPresencaNaFibonacci()
         {
 
-
-
             Console.WriteLine("2) Verificar presença na de um número na sequência Fibonacci: ");
             Console.WriteLine();
             Console.WriteLine("   Dado a sequência de Fibonacci, onde se inicia por 0 e 1 e o próximo valor sempre será a soma dos 2 valores");
@@ -78,8 +77,7 @@
             Console.WriteLine();
             Console.WriteLine("   IMPORTANTE:");
             Console.WriteLine();
-            Console.WriteLine("   Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser previamente definido");
-            Console.WriteLine("  no código;");
+            Console.WriteLine("   Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser previamente definido no código;");
             Console.WriteLine();
             Console.Write("   Digite o número a ser verificado: ");
 
@@ -161,6 +159,49 @@
             Console.WriteLine($"     Outros  –                  {PercentualOutros.ToString("F2")}%");
 
             Console.ReadKey();
+        }
+
+        static void InverterString()
+        {
+
+            Console.WriteLine("5) Inverter uma string");
+            Console.WriteLine();
+            Console.WriteLine("   Escreva um programa que inverta os caracteres de um string.");
+            Console.WriteLine();
+            Console.WriteLine("   IMPORTANTE:");
+            Console.WriteLine();
+            Console.WriteLine("  a) Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código;");
+            Console.WriteLine();
+            Console.WriteLine("  b) Evite usar funções prontas, como, por exemplo, reverse;");
+            Console.WriteLine();
+
+
+            
+            
+
+            Console.Write("    Escreva a palavra a ser invertida: ");
+            string input = Console.ReadLine();
+
+            char[] auxiliarDeOutput;
+            string outputDefinitivo = "";
+            if(input != null)
+            {
+                auxiliarDeOutput = new char[input.Length];
+                for(int i = 0; i < input.Length; i++)
+                {
+                    auxiliarDeOutput[i] = input[i];
+                }
+                input = "";
+
+                for(int i = auxiliarDeOutput.Length; i > 0; i --)
+                {
+                    outputDefinitivo += auxiliarDeOutput[i - 1];
+                }
+            }
+
+            Console.WriteLine($"    Resposta: {outputDefinitivo}");
+            Console.ReadKey();
+
         }
 
     }
