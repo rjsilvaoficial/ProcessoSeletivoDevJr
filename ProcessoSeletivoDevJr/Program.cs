@@ -7,13 +7,13 @@
             //Para uma melhor exibição de informações, foram utilizados vários Console.WriteLine() nas funções
 
 
-            //ImprimirSoma();
-            //ChecarPresencaNaFibonacci();
-            //VerificarPercentualNoFaturamento();
+            ImprimirSoma();
+            ChecarPresencaNaFibonacci();
+            VerificarPercentualNoFaturamento();
             InverterString();
 
 
-            /*
+            /*TODO
              3) Dado um vetor que guarda o valor de faturamento diário de uma distribuidora, 
                     faça um programa, na linguagem que desejar, que calcule e retorne:
 
@@ -25,6 +25,7 @@
                 a) Usar o json ou xml disponível como fonte dos dados do faturamento mensal;
                 b) Podem existir dias sem faturamento, como nos finais de semana e feriados. Estes dias devem ser ignorados no cálculo da média;
             
+            Base para verificação indisponível!
              */
 
 
@@ -62,9 +63,11 @@
             Console.WriteLine($"   A resposta deste exercício é: {soma}");
 
             Console.ReadKey();
+            Console.WriteLine();
+
         }
-    
-    
+
+
         static void ChecarPresencaNaFibonacci()
         {
 
@@ -113,6 +116,7 @@
             }
 
             Console.ReadKey();
+            Console.WriteLine();
         }
     
     
@@ -159,6 +163,8 @@
             Console.WriteLine($"     Outros  –                  {PercentualOutros.ToString("F2")}%");
 
             Console.ReadKey();
+            Console.WriteLine();
+
         }
 
         static void InverterString()
@@ -201,6 +207,7 @@
 
             Console.WriteLine($"    Resposta: {outputDefinitivo}");
             Console.ReadKey();
+            Console.WriteLine();
 
         }
 
