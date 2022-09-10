@@ -18,7 +18,7 @@ ProcessoSeletivoDevJr é uma aplicação console construída durante processo se
 ## Competências relevantes empregadas
 - Criação de funções estáticas 
 - Operações com valores decimais
-- Design de UI
+- Configuração da exibição de informações (UX)
 
 ```bash
 # clonar repositório
