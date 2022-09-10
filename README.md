@@ -1,7 +1,6 @@
 # ProcessoSeletivoDevJr
 
-[![NPM](https://img.shields.io/github/license/rjsilvaoficial/ContosoUniversityMVC)](https://github.com/rjsilvaoficial/ContosoUniversityMVC/blob/master/License)
-
+[![NPM](https://img.shields.io/github/license/rjsilvaoficial/ProcessoSeletivoDevJr)](https://github.com/rjsilvaoficial/ProcessoSeletivoDevJr/blob/master/LICENSE)
 
 # Sobre o projeto
 
