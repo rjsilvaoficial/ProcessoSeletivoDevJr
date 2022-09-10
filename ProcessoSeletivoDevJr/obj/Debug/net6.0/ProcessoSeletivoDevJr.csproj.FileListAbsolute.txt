@@ -1,0 +1,15 @@
+C:\Projetos\ProcessoSeletivoDevJr\ProcessoSeletivoDevJr\bin\Debug\net6.0\ProcessoSeletivoDevJr.exe
+C:\Projetos\ProcessoSeletivoDevJr\ProcessoSeletivoDevJr\bin\Debug\net6.0\ProcessoSeletivoDevJr.deps.json
+C:\Projetos\ProcessoSeletivoDevJr\ProcessoSeletivoDevJr\bin\Debug\net6.0\ProcessoSeletivoDevJr.runtimeconfig.json
+C:\Projetos\ProcessoSeletivoDevJr\ProcessoSeletivoDevJr\bin\Debug\net6.0\ProcessoSeletivoDevJr.dll
+C:\Projetos\ProcessoSeletivoDevJr\ProcessoSeletivoDevJr\bin\Debug\net6.0\ProcessoSeletivoDevJr.pdb
+C:\Projetos\ProcessoSeletivoDevJr\ProcessoSeletivoDevJr\obj\Debug\net6.0\ProcessoSeletivoDevJr.csproj.AssemblyReference.cache
+C:\Projetos\ProcessoSeletivoDevJr\ProcessoSeletivoDevJr\obj\Debug\net6.0\ProcessoSeletivoDevJr.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\ProcessoSeletivoDevJr\ProcessoSeletivoDevJr\obj\Debug\net6.0\ProcessoSeletivoDevJr.AssemblyInfoInputs.cache
+C:\Projetos\ProcessoSeletivoDevJr\ProcessoSeletivoDevJr\obj\Debug\net6.0\ProcessoSeletivoDevJr.AssemblyInfo.cs
+C:\Projetos\ProcessoSeletivoDevJr\ProcessoSeletivoDevJr\obj\Debug\net6.0\ProcessoSeletivoDevJr.csproj.CoreCompileInputs.cache
+C:\Projetos\ProcessoSeletivoDevJr\ProcessoSeletivoDevJr\obj\Debug\net6.0\ProcessoSeletivoDevJr.dll
+C:\Projetos\ProcessoSeletivoDevJr\ProcessoSeletivoDevJr\obj\Debug\net6.0\refint\ProcessoSeletivoDevJr.dll
+C:\Projetos\ProcessoSeletivoDevJr\ProcessoSeletivoDevJr\obj\Debug\net6.0\ProcessoSeletivoDevJr.pdb
+C:\Projetos\ProcessoSeletivoDevJr\ProcessoSeletivoDevJr\obj\Debug\net6.0\ProcessoSeletivoDevJr.genruntimeconfig.cache
+C:\Projetos\ProcessoSeletivoDevJr\ProcessoSeletivoDevJr\obj\Debug\net6.0\ref\ProcessoSeletivoDevJr.dll
